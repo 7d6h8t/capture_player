@@ -1,0 +1,3 @@
+[submodule "external/capture_control"]
+	path = external/capture_control
+	url = https://github.com/7d6h8t/capture_control.git
