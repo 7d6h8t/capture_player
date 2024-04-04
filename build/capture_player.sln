@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "capture_player", "..\src\capture_player\capture_player.vcxproj", "{2D4F79E7-48ED-4107-A9AE-DEE196C09A16}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "capture_control", "..\src\capture_control\capture_control.vcxproj", "{D249B476-2B19-47CA-84C0-0951180259D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -15,6 +17,10 @@ Global
 		{2D4F79E7-48ED-4107-A9AE-DEE196C09A16}.Debug|x64.Build.0 = Debug|x64
 		{2D4F79E7-48ED-4107-A9AE-DEE196C09A16}.Release|x64.ActiveCfg = Release|x64
 		{2D4F79E7-48ED-4107-A9AE-DEE196C09A16}.Release|x64.Build.0 = Release|x64
+		{D249B476-2B19-47CA-84C0-0951180259D9}.Debug|x64.ActiveCfg = Debug|x64
+		{D249B476-2B19-47CA-84C0-0951180259D9}.Debug|x64.Build.0 = Debug|x64
+		{D249B476-2B19-47CA-84C0-0951180259D9}.Release|x64.ActiveCfg = Release|x64
+		{D249B476-2B19-47CA-84C0-0951180259D9}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

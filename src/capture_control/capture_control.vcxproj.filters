@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{64fd231e-56b6-413c-8bf8-ab988b6162c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{7fb25d4b-257b-4b18-bebd-4dd39d78ecb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\conversion">
+      <UniqueIdentifier>{55be739a-a77a-4b9c-9556-7f27bc07251b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\capture">
+      <UniqueIdentifier>{759972ec-6f30-445c-8b57-141bdf247adc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\conversion">
+      <UniqueIdentifier>{6168ce25-12d7-41a1-9e1f-6ae056fb1891}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\capture">
+      <UniqueIdentifier>{69fbd291-6a1c-4caf-85e1-b515b5a95daa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\external\capture_control\dllmain.cpp" />
+    <ClCompile Include="..\..\external\capture_control\pch.cpp" />
+    <ClCompile Include="..\..\external\capture_control\src\capture\controller.cpp">
+      <Filter>src\capture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\capture_control\src\capture\renderer.cpp">
+      <Filter>src\capture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\capture_control\src\conversion\media_type_converter.cpp">
+      <Filter>src\conversion</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\external\capture_control\framework.h" />
+    <ClInclude Include="..\..\external\capture_control\pch.h" />
+    <ClInclude Include="..\..\external\capture_control\include\com_throw.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\capture_control\include\export.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\capture_control\include\conversion\media_type_converter.h">
+      <Filter>include\conversion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\capture_control\include\capture\controller.h">
+      <Filter>include\capture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\capture_control\include\capture\renderer.h">
+      <Filter>include\capture</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
