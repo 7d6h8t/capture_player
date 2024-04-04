@@ -41,6 +41,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
     }
     capture::Controller controller{};
     controller.Init(hWnd);
+
     controller.Open(L"D:\\Test\\Video\\BigBuckBunny.mp4");
 
     HACCEL hAccelTable = LoadAccelerators(hInstance, MAKEINTRESOURCE(IDC_CAPTUREPLAYER));
